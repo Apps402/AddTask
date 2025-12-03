@@ -16,9 +16,9 @@ spec:
                port:
                  number: 80
         - path: /tasks
-            pathType: Prefix
-            backend:
-              service:
-                name: addtask-svc
-                port:
-                  number: 80
+          pathType: Prefix
+          backend:
+            service:
+               name: addtask-svc
+               port:
+                 number: 80
